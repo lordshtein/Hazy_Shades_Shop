@@ -1,0 +1,8 @@
+body { 
+  background-color: grey;
+  padding: 20px 20px 20px 0;
+  width: 100%;
+  min-width: 480px;
+}
+
+@import './layout/header.scss'
