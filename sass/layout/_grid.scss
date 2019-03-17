@@ -1,0 +1,52 @@
+.preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 29fr 20fr 29fr);
+}
+
+.picture1 {
+    background: url(http://127.0.0.1:8887/img/shoes.jpg) 100% no-repeat;
+    background-size: cover;
+    min-height: 290px;
+}
+
+.picture2 {
+    background: url(http://127.0.0.1:8887/img/dress.jpg) 100% no-repeat;
+    background-size: cover;
+    min-height: 290px;
+}
+
+.picture3 {
+    background: url(http://127.0.0.1:8887/img/blazer2.jpg) 100% no-repeat;
+    background-size: cover;
+    min-height: 290px;
+}
+
+.picture4 {
+    background: url(http://127.0.0.1:8887/img/blazer.jpeg) 100% no-repeat;
+    background-size: cover;
+    min-height: 290px;
+}
+
+.preview__item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.information {
+    min-height: 200px;
+    background-color: #606060;
+
+}
+.preview__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}

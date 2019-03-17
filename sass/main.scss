@@ -1,8 +1,6 @@
-body { 
-  background-color: grey;
-  padding: 20px 20px 20px 0;
-  width: 100%;
-  min-width: 480px;
-}
-
-@import './layout/header.scss'
+@import './layout/header';
+@import './pages/starter';
+@import './components/buttons';
+@import './base/typography';
+@import './layout/grid';
+@import './layout/containers';
