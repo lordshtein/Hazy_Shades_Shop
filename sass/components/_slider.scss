@@ -1,0 +1,13 @@
+.slider__item {
+    background: url(http://127.0.0.1:8887/img/slider1.jpg) 100% no-repeat;
+    background-size: cover;
+    min-height: 240px;
+    box-sizing: border-box;
+    width: 100%;
+    list-style: none;
+}
+
+.slider {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #bababa;
+}

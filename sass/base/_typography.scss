@@ -1,4 +1,4 @@
-.title {
+.title-header {
     font-family: 'Lato';
     font-size: 70px;
     text-transform: uppercase;
@@ -20,7 +20,17 @@
     width:100%;
     padding-top: 40px;
 }
-
+.title-footer {
+    font-family: 'Lato';
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333;
+    line-height: 34px;
+    text-align: center;
+    width:100%;
+    padding-top: 40px;
+}
 .subtitle {
     font-family: 'Lustria';
     font-size: 24px;
@@ -30,6 +40,17 @@
     text-align: center;
     font-style: italic;
     width:100%;
+}
+
+.subtitle-footer {
+    font-family: 'Lato';
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #606060;
+    line-height: 35px;
+    text-align: center;
+    width:100%;
+    
 }
 
 .arrows {
@@ -47,6 +68,7 @@ h2 {
   letter-spacing: 1.5px;
   margin: 0 0;
   padding-bottom: 10px;
+  text-align: center;
 
 }
 
@@ -67,6 +89,30 @@ h4 {
     line-height: 30px;
     color: #fff; 
     text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-weight: 400; 
+    margin: 0 0;
+}
+
+.peoples-says {
+    font-family: 'Lustria';
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff; 
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 400; 
+    margin: 20px 0;
+    max-width: 300px;
+    text-align: center;
+}
+
+.peoples {
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff; 
     font-style: italic;
     letter-spacing: 2px;
     font-weight: 400; 

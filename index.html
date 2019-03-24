@@ -1,65 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Lustria" rel="stylesheet">
 
 </head>
+
 <body>
     <header>
 
-        <button class='header-logo btn'>
-            <span class='name'>sh</span>
-        </button>
-        <!--
-        <ul class='header-menu'>
-            <li class='header-menu__item'>
-                <a class='header-menu__link'>Woman</a>
-            </li>
+        <div class='header-rigth-part'>
+            <button class='header-logo btn'>
+                <span class='name'>sh</span>
+            </button>
 
-            <li class='header-menu__item'>
+            <ul class='header-menu'>
+
+                <li class='header-menu__item'>
+                    <a class='header-menu__link'>Woman</a>
+                </li>
+
+                <li class='header-menu__item'>
                     <a class='header-menu__link'>Men</a>
-            </li>
+                </li>
 
-            <li class='header-menu__item'>
+                <li class='header-menu__item'>
                     <a class='header-menu__link'>Kids</a>
-            </li>
-            
-            <li class='header-menu__item'>
-                    <a class='header-menu__link'>Coomig Soon</a>
-            </li>
+                </li>
 
-            <li class='header-menu__item'>
+                <li class='header-menu__item'>
+                    <a class='header-menu__link'>Coomig Soon</a>
+                </li>
+
+                <li class='header-menu__item'>
                     <a class='header-menu__link'>About</a>
-            </li>
-        </ul>
-        -->
-        <button class='basket btn'>
-            <i class="fas fa-shopping-bag"></i>
-        </button>
-        
-        <button class='menu-button btn'>
-            <i class="fas fa-bars"></i>
-        </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class='header-left-part'>
+            <button class='login btn'>
+                <i class="fas fa-user-tie"></i>
+                <p class='btn-name'>Log In</p>
+            </button>
+
+            <button class='basket btn'>
+                <i class="fas fa-shopping-bag"></i>
+                <p class='btn-name'>Basket</p>
+            </button>
+
+            <button class='menu-button btn'>
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <button class='search-button btn'>
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
 
     </header>
-    
-    <div class='container'>
-        <h1 class='title'>hazy shades of spring</h1>
-        <p class='subtitle'>Quisque lorem tortor fringilla 
-            <br>sed, vestibulum id, eleifend justo.</p>
-    </div>
- 
-    <ul class='container preview'>
 
+    <div class='container titles'>
+        <h1 class='title-header'>hazy shades of spring</h1>
+        <p class='subtitle'>Quisque lorem tortor fringilla
+            <br>sed, vestibulum id, eleifend justo.</p>
+        <button class='arrivals'>check new arrivals</button>
+    </div>
+
+    <ul class='container preview'>
+        <li class='preview__item picture0'>
+            <a href="#" class='preview__link'>
+                <h2>heather grey basics</h2>
+                <h4>new arrival</h4>
+            </a>
+        </li>
+
+        <li class='preview__item information pc-view'>
+            <a href="#" class='preview__link'>
+                <span class='arrows'><i class="fab fa-twitter"></i></span>
+                <p class='peoples-says'>Opening Ceremony @IndonesiaFW tomorrow, PMers! Are you ready for the biggest
+                    fashion movement in</p>
+                <p class='peoples'>@PuspitaMarthaID </p>
+            </a>
+        </li>
         <li class='preview__item picture1'>
             <a href="#" class='preview__link'>
-            
+
             </a>
         </li>
 
@@ -71,10 +104,20 @@
             </a>
         </li>
 
+
+
         <li class='preview__item picture2'>
             <a href="#" class='preview__link'>
                 <h2>chuck tailors</h2>
                 <h4>$125.00</h4>
+            </a>
+        </li>
+
+        <li class='preview__item information pc-view'>
+            <a href="#" class='preview__link'>
+                <span class='arrows'><i class="fab fa-twitter"></i></span>
+                <p class='peoples-says'>Girls, Girls, Girls: A Look Back at 50 Years of the Pirelli Cal</p>
+                <p class='peoples'>@Vogue </p>
             </a>
         </li>
 
@@ -92,19 +135,114 @@
             </a>
         </li>
 
+
+
+
         <li class='preview__item picture4'>
             <a href="#" class='preview__link'>
                 <h2>basic blazer</h2>
                 <h4>from $199.00</h4>
             </a>
         </li>
+
+        <li class='preview__item picture5'>
+            <a href="#" class='preview__link'>
+                <h2>jeans for adventure</h2>
+                <h4>new arrival</h4>
+            </a>
+        </li>
     </ul>
 
     <div class='container'>
         <h1 class='title2'>sign up to receive our updates</h1>
-        <p class='subtitle'>Nulla ipsum dolor lacus> suscipit adipiscing.Cum sociis natoque penatibus.
+        <p class='subtitle'>Nulla ipsum dolor lacus suscipit adipiscing.Cum sociis natoque penatibus.
         </p>
     </div>
 
+    <form class='user-mail container' action=''>
+        <input class='email' type="email" placeholder='   Your e-mail'>
+        <input class='form-btn' type="submit" value='add'>
+    </form>
+
+    <ul class='slider container'>
+        <li class='slider__item'></li>
+
+
+    </ul>
+
+    <div class='container footer'>
+
+
+        <div class='footer-wrapper'>
+            <h1 class='title-footer'>collection</h1>
+            <ul class='footer-menu'>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Woman</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Men</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Kids</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Cooming Soon</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class='footer-wrapper'>
+            <h1 class='title-footer'>site</h1>
+            <ul class='footer-menu'>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Terms of Service</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Privacy Policy</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Copyright Policy</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Press Kit</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Support</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class='footer-wrapper'>
+            <h1 class='title-footer'>shop</h1>
+            <ul class='footer-menu'>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>About us</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Shipping Metods</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Career</a>
+                </li>
+                <li class='footer-menu__item'>
+                    <a href='#' class='footer-menu__link'>Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class='footer-wrapper1'>
+            <h1 class='title-footer'>socials</h1>
+            <p class='subtitle-footer'>Shoper is made with love in Warsaw, 2014 © All rights reserved. El Passion
+            </p>
+
+            <ul class='socials footer-socials'>
+                <li class='socials__item'><i class="fab fa-twitter"></i></li>
+                <li class='socials__item'><i class="fab fa-facebook-f"></i></li>
+                <li class='socials__item'><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+    </div>
+
+
 </body>
+
 </html>

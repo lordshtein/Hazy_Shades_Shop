@@ -6,3 +6,40 @@ header {
   justify-content: space-between;
   box-sizing: border-box;
 }
+
+.header-rigth-part {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+.header-left-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  width: 75%;
+  padding: 0 0;
+}
+
+.header-menu__item {
+  list-style: none;
+}
+
+.header-menu__link {
+  text-decoration: none;
+  font-family: 'Lato';
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+@media (min-width: 720px) {
+  .header-menu {
+    display: flex;
+  }
+}
